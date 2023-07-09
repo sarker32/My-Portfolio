@@ -3,10 +3,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -22,27 +23,57 @@ nav {
     align-items: center;
     margin: 0 200px;
 }
- nav > ul{
-    display: flex;
-    align-items: center;
- }
- nav li{
-    list-style: none;
-    margin-right: 50px;
- }
- nav a{
-    text-decoration: none;
-    color: #474747;
- }
- /* header related styles */
- .header{
-    background-color: #FFF8F3;
- }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-.banner .profile-pic{
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../Media/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px
+}
+.banner-description{
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
